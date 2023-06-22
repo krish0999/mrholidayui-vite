@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Nova+Oval&display=swap');
+
+.about-container{
+    margin: 4rem 6rem;
+    text-align: start;
+}
+
+.about-container h1{
+    padding-bottom: 1rem;
+    font-family: "Nova Oval";
+    color: teal;
+}
+
+.about-container p{
+    padding-bottom: 2rem;
+    font-family: "DynaPuff";
+    color: black;
+}
+
+@media screen and (max-width: 850px) {
+    .about-container {
+        margin: 4rem 2rem;
+    }
+}
