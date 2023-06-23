@@ -12,7 +12,7 @@ const Navbar = () => {
    
         return (
             <nav className='NavbarItems'>
-                <h1 className='navbar-logo'>mrHoliday</h1>
+                <h1 className='navbar-logo' to="/">mrHoliday</h1>
                 <div className='menu-icons' onClick={handelClick}> 
                     <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
                 </div>
